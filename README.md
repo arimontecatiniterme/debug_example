@@ -1,5 +1,5 @@
 
-## Sommario
+## Prerequisiti
 
 - [link dell'associazione ARI di Montecatini Terme](https://arimontecatini.it/index.html)
 - S.O. Linux metal 6.0.0-kali3-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.0.7-1kali1 (2022-11-07) x86_64 GNU/Linu
@@ -9,4 +9,6 @@
 - [Link per guida debug](https://piolabs.com/blog/insights/debugging-introduction.html);
 - [Video tutorial debug](https://www.youtube.com/watch?v=psMqilqlrRQ )
 
+
+## Descrizione
 
