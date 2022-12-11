@@ -1,7 +1,7 @@
 
 ## Sommario
 
-- [link direfimento](https://arimontecatini.it/index.html)
+- [link dell'associazione ARI di Montecatini Terme](https://arimontecatini.it/index.html)
 - S.O. Linux metal 6.0.0-kali3-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.0.7-1kali1 (2022-11-07) x86_64 GNU/Linu
 - scheda AZ-DELIVERY D1 R32;
 - [scheda ESP-Prog](https://docs.platformio.org/en/latest/plus/debug-tools/esp-prog.html#drivers);
