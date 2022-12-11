@@ -12,3 +12,14 @@
 
 ## Descrizione
 
+Il codice viene compilato e caricato sulla board da testare. Quando si inizia il debug il codice viene caricato anche sulla ESP-Prog che megtte in pausa il processore della board quando incontra il punto di interruzione. Quando si passa all'istruzione successiva la ESP-Prog toglie dalla pausa il processore della board che esegue l'istruzione successiva e poi viene rimesso in pausa.
+
+Installare [udev](https://wiki.debian.org/it/udev) ( sudo apt install udev ) se non e' gia' installato.
+Collegare la board e rilevare la porta a cui e' collegata per impostare la variabile *upload_port* nel file platfmoio.ini come segue :
+
+upload_port = /dev/ttyUSB2
+
+nel caso di specie la board AZ-DELIVERY D1 R32 e' collegata alla porta USB2. Per rilevare il nome della porta si puo' utilizzare il comando lsusb oppure vedere visualizzare la voce *porta* del menu *strumenti* dell'interfaccia IDE di Arduino.
+
+Compile e upload del codice dopo aver indicato un solo punto di interruzione.
+Avviare il debug di platformio.ini .
