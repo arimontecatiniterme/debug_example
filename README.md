@@ -21,5 +21,8 @@ upload_port = /dev/ttyUSB2
 
 nel caso di specie la board AZ-DELIVERY D1 R32 e' collegata alla porta USB2. Per rilevare il nome della porta si puo' utilizzare il comando lsusb oppure vedere visualizzare la voce *porta* del menu *strumenti* dell'interfaccia IDE di Arduino.
 
-Compile e upload del codice dopo aver indicato un solo punto di interruzione.
-Avviare il debug di platformio.ini .
+
+##Avviare il debug
+
+Senza collegare la ESP-Prog compilare e caricare il codice dopo aver indicato un solo punto di interruzione.
+Collegare il JTAG della ESP-Prog e avviare il debug.
