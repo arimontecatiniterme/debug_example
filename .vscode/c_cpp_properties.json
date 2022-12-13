@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/n3og3o/Documenti/PlatformIO/Projects/221212-170401-arduino-blink/include",
-                "/home/n3og3o/Documenti/PlatformIO/Projects/221212-170401-arduino-blink/src",
+                "/home/n3og3o/Documenti/univ/dev/debug_example/include",
+                "/home/n3og3o/Documenti/univ/dev/debug_example/src",
                 "/home/n3og3o/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                 "/home/n3og3o/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
                 "/home/n3og3o/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update",
@@ -106,8 +106,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/n3og3o/Documenti/PlatformIO/Projects/221212-170401-arduino-blink/include",
-                    "/home/n3og3o/Documenti/PlatformIO/Projects/221212-170401-arduino-blink/src",
+                    "/home/n3og3o/Documenti/univ/dev/debug_example/include",
+                    "/home/n3og3o/Documenti/univ/dev/debug_example/src",
                     "/home/n3og3o/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                     "/home/n3og3o/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
                     "/home/n3og3o/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update",
