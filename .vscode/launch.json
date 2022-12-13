@@ -5,6 +5,18 @@
 // Documentation: https://docs.platformio.org/page/plus/debugging.html
 // Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
 
+
+// ${workspaceFolder} the path of the folder opened in VS Code
+// ${file} the current opened file
+// ${relativeFile} the current opened file relative to workspaceRoot
+// ${fileBasename} the current opened file's basename
+// ${fileDirname} the current opened file's dirname
+// ${fileExtname} the current opened file's extension
+// ${cwd} the task runner's current working directory on startup
+
+
+
+
 {
     "version": "0.2.0",
     "configurations": [
@@ -12,7 +24,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/n3og3o/Documenti/univ/dev/debug/debug_example-4/.pio/build/esp32dev/firmware.elf",
+            "executable": "${workspaceFolder}/.pio/build/esp32dev/firmware.elf",
             "projectEnvName": "esp32dev",
             "toolchainBinDir": "/home/n3og3o/.platformio/packages/toolchain-xtensa32/bin",
             "internalConsoleOptions": "openOnSessionStart",
@@ -25,7 +37,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/n3og3o/Documenti/univ/dev/debug/debug_example-4/.pio/build/esp32dev/firmware.elf",
+            "executable": "${workspaceFolder}/.pio/build/esp32dev/firmware.elf",
             "projectEnvName": "esp32dev",
             "toolchainBinDir": "/home/n3og3o/.platformio/packages/toolchain-xtensa32/bin",
             "internalConsoleOptions": "openOnSessionStart"
@@ -34,7 +46,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/n3og3o/Documenti/univ/dev/debug/debug_example-4/.pio/build/esp32dev/firmware.elf",
+            "executable": "${workspaceFolder}/.pio/build/esp32dev/firmware.elf",
             "projectEnvName": "esp32dev",
             "toolchainBinDir": "/home/n3og3o/.platformio/packages/toolchain-xtensa32/bin",
             "internalConsoleOptions": "openOnSessionStart",
